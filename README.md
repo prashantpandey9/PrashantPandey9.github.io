@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+<h1> Studied at Bipin tripathi kumaon Institue of technology. Schooling from Rajeev Gandhi Navodaya Vidyalaya .</h1>
+<h2>Music lover, sketching,coding,dancing,adventure,learner,wanderlust, photographer.</h2>
 
-You can use the [editor on GitHub](https://github.com/PrashantPandey8057/PrashantPandey8057.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
