@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body{
+	 font-family: Georgia,'Open Sans','sans-serif'; 
+}
+.bg-img{
+	background-color:#e9ecef;
+	width: 100%;
+  	position: relative;
+}
+.jumbotron{
+	background-image: url(images/d.jpg);
+}
+.card:hover{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+i.fa{
+	margin:20px;
+  	padding: 3px;
+  	-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+i.fa-facebook:hover{
+	cursor:pointer;
+    margin-top: 5px;
+}
+i.fa-twitter:hover{
+	cursor:pointer;
+    margin-top: 5px;
+}
+i.fa-linkedin:hover{
+	cursor:pointer;
+    margin-top: 5px;
+}
+i.fa-instagram:hover{
+	cursor:pointer;
+    margin-top: 5px;
+}
+footer{
+	text-align: center;color:blue;background-color: #e9ecef;padding: 20px 0 20px 0
+}
+
