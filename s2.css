@@ -1,0 +1,37 @@
+.container{
+	font-family: "Work Sans","Helvetica Neue",helvetica,arial,sans-serif;
+}
+.container .section-1{
+	margin-top: 10%;
+}
+.container .section-1 .head-1{
+	font-family: "Work Sans","Helvetica Neue",helvetica,arial,sans-serif;
+    font-weight: 800;
+    letter-spacing: .1em;
+    line-height: 1.25;
+	margin-left: 17%;
+	color: rgb(0,0,0,0.59); 
+}
+.container .section-1 .para{
+	font-family: "Work Sans","Helvetica Neue",helvetica,arial,sans-serif;
+	line-height: 2rem;
+	font-size: 20px;
+}
+.container .section2 .head-1{
+	font-family: "Work Sans","Helvetica Neue",helvetica,arial,sans-serif;
+    font-weight: 800;
+    letter-spacing: .1em;
+    line-height: 1.25;
+    color: rgb(0,0,0,0.59);
+    margin-left: 17%;
+}
+.container .section21 .para{
+	font-family: "Work Sans","Helvetica Neue",helvetica,arial,sans-serif;
+	color: rgb(0,0,0,0.49);
+	line-height: 1.25;
+}
+.vl {
+  border-left: 6px solid green;
+  height: 68px;
+  float: left;
+}
