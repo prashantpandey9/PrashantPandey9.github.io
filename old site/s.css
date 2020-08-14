@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+.menu-btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    top: 0px;
+    right: 25px;
+    float: right;
+    transition: all .5s ease-in-out;
+    z-index: 44;
+    /* border: 3px solid #000; */
+    
+}
+
+.menu-btn_burger{
+    width: 30px;
+    height: 6px;
+    background: #222;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+
+}
+.menu-btn_burger::before,
+.menu-btn_burger::after{
+    content: '';
+    position:absolute;
+    width: 40px;
+    height: 6px;
+    background: #000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+}
+.menu-btn_burger::after{
+    width: 20px;
+}
+.menu-btn_burger::before{
+    transform: translateY(-16px);
+}
+.menu-btn_burger::after{
+    transform: translateY(16px);
+}
+
+.menu-btn.open .menu-btn_burger{
+    transform:translateX(50px);
+    background: transparent;
+    box-shadow: none;
+}
+.menu-btn.open .menu-btn_burger::before{
+    transform: rotate(45deg) translate(-35px,35px);
+}
+.menu-btn.open .menu-btn_burger::after{
+    width: 40px;
+    transform: rotate(-45deg) translate(-35px,-35px);
+}
+.nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+    padding-top: 100px;
+    display: none;
+    overflow-x: hidden;
+    z-index: 1;
+    transition:all 1s ;
+}   
+.nav a{
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #999;
+    display: block;
+    transition: all .4s ;
+}

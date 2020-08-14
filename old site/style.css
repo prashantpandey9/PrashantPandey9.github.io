@@ -156,7 +156,7 @@ body{
 	.section-1 .card{
 		width: 15rem;
 	}
-	.section-4 .col-md.5{
+	.section-4 .col-md-5{
 		padding: 0% 15%;
 	}
 	footer input[type="button"]{
