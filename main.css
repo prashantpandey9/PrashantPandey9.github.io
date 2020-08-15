@@ -414,6 +414,115 @@ footer .fa{
   }
 
   @media screen and (max-width:320px){
+    *{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .section1{
+    
+        background-color: var(--all-color);
+        height: 650px;
+    }
+    .navbar-brand,.navbar-brand:hover{
+        color: var(--theme-color);
+        /* margin-left: 20px; */
+        font-weight: 900;
+        font-family: 'Roboto';
+        font-size: 40px;
+    }
+    .section3{
+        height: 620px;
+        
+    }
+    .hello{
+        font-family: 'Roboto';
+        float: center;
+        font-size: 30px;
+        color: #fff;
+        font-weight: 500;
+    }
+    .name{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .para{
+        display: none;
+        font-family: 'Roboto';
+        float: center;
+        font-size: 10px;
+        color: #fff;
+        
+    }
+
+    .section2{
+        
+        /* margin-left: -20px; */
+        width: 100%;
+        /* background-color: var(--extracolor); */
+        height: 400px;
+    }
+    .skill{
+
+        /* margin-top: -80px; */
+        height: 400px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .down-right{
+        text-align: center;
+        background-color: #fff;
+        height: 620px;
+        width: 100%;
+        margin-left: 25px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .fa {
+        background: rgb(46, 42, 42);
+        padding: 1em;
+        text-align: center;
+        display: inline;
+        border-radius: 50%;
+    }
+    .icon{
+        font-size: 20px;
+        line-height: 65px;
+        color: var(--theme-color);
+    }
+    .section4{
+        padding-top: 20px;
+        height: 1500px;
+        margin-top: 50px;
+    }
+    .middle{
+        margin-left: 25px;
+        /* padding: 50px 0 0 50px; */
+        color: #fff;
+        background-color: var(--rightcolor);
+        height: 1500px;
+        z-index: -1;
+    }
+    .hobby-title{
+        padding-top: 10px;
+    }
+    .section3{
+        float: center;
+    }
+    button{
+        width: auto;
+    }
+    .navbar-brand{
+        width: auto;
+    }
+    
+    .naam{
+        font-weight: 900;
+    }
+    footer .fa{
+        padding: .1em;
+    }
     
 
     
