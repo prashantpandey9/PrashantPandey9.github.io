@@ -7,6 +7,10 @@
     --theme-color: #00d679;
     --all-color:#000;
     --head-color: #007bff;
+    --bootstrap-sm: 576px;
+    --bootstrap-md: 768px;
+    --bootstrap-lg: 992px;
+    --bootstrap-xl: 1200px;
 } 
 *{
     margin: 0;
@@ -105,7 +109,7 @@
    color: var(--theme-color)!important;
 }
 .hello{
-    font-family: 'Roboto'
+    font-family: 'Roboto';
     float: center;
     font-size: 50px;
     margin-top: 120px;
@@ -118,7 +122,7 @@
     font-weight: 900;
 }
 .para{
-    font-family: 'Roboto'
+    font-family: 'Roboto';
     float: center;
     font-size: 18px;
     padding: 20px 0 0 100px;
@@ -414,3 +418,5 @@ footer .fa{
 
     
   }
+
+
