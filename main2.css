@@ -22,8 +22,9 @@
 .section1{
     margin-top: -20px;
     padding: 20px 0 0 0 ;
-    /* background-color: var(--extracolor); */
-/* height: 650px; */
+    background-color: var(--all-color);
+    height: 650px;
+    color: white;
 }
 .navbg{
     background-color: var(--leftcolor);
@@ -127,6 +128,7 @@ img:hover{
     
         background-color: var(--all-color);
         height: 650px;
+        color: white;
     }
     .navbar-brand,.navbar-brand:hover{
         color: var(--theme-color);
