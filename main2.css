@@ -111,7 +111,10 @@ img {
   }
 img:hover{
     transition: transform .9s;
-    transform: scale(1.5);
+    transform: scale(1.2);
+    position: relative;
+    z-index: 100;
+    border: 4px solid#5c8c9f;
 }
 .section2{
     padding-top: 10px;
@@ -142,7 +145,7 @@ img:hover{
     }
     img:hover{
         transition: transform .9s;
-        transform: scale(1.3);
+        /* transform: scale(1.1); */
     }
     
 }
@@ -151,6 +154,7 @@ img:hover{
     columns: 4;
     column-gap: 16px;
   }
+  
   @media (max-width: 1200px) {
     .masonry {
       columns: 3;
@@ -159,6 +163,15 @@ img:hover{
   @media (max-width: 992px) {
     .masonry {
       columns: 2;
+    }
+    img:hover{
+      transition: transform .9s;
+      transform: scale(1.1);
+    }
+  }
+  @media (max-width: 768px) {
+    .masonry {
+      columns: 1;
     }
   }
   .masonry .grid {
