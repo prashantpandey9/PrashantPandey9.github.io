@@ -16,7 +16,7 @@
     margin: 0;
     padding: 0;
     font-family: var(--font-stack);
-    width: 100%;
+    /* width: 100%; */
     scroll-behavior: smooth;
 }
 .section1{
@@ -161,24 +161,30 @@
     font-weight: 600;
 }
 .processcolor{
-    background-color: var(--theme-color);
+    background-color: #0e153a;
+    color: #e2f3f5;
+    font-weight: 500;
 }
 .processcolorred{
-    background-color: red;
+    background-color: #3d5af1;
+    font-weight: 500;
+    color: #f2f2f2;
 }
 .processcoloryel{
-    background-color: yellowgreen;
+    background-color: #22d1ee;
+    font-weight: 500;
+    color: #000;
 }
-.section3{
-    height: 150px;
+
+.down-right {
+	background-color: #fff;
+	width: 100%;
+	padding-right: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position: inherit;
+	z-index: 3;
 }
-.down-right{
-    background-color: #fff;
-    height: 280px;
-    width: 100%;
-    padding-right: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 .down-right:hover{
     cursor: pointer;
     transition: .5s ease-out;
@@ -190,8 +196,7 @@
     color: #fff;
     margin-top: -50px;
     background-color: var(--rightcolor);
-    height: 900px;
-    z-index: -1;
+    z-index: 1;
 }
 .experience{
     padding:0 0 0 10px;
@@ -220,7 +225,7 @@
 
 .footer{
     margin-top: 20px;
-    height: 200px;
+    
     background-color: #000;
 }
 .fa {
@@ -252,6 +257,7 @@
 .hobby-title,.top{
     text-align: center;
     font-weight: 900;
+    
 }
 
 
@@ -309,7 +315,7 @@ footer .fa{
     .section1{
     
         background-color: var(--all-color);
-        height: 650px;
+      
     }
     .navbar-brand,.navbar-brand:hover{
         color: var(--theme-color);
@@ -317,10 +323,6 @@ footer .fa{
         font-weight: 900;
         font-family: 'Roboto';
         font-size: 40px;
-    }
-    .section3{
-        height: 620px;
-        
     }
     .hello{
         font-family: 'Roboto';
@@ -347,12 +349,12 @@ footer .fa{
         /* margin-left: -20px; */
         width: 100%;
         /* background-color: var(--extracolor); */
-        height: 400px;
+        
     }
     .skill{
 
         /* margin-top: -80px; */
-        height: 400px;
+      
         background-color: #fff;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
@@ -360,7 +362,8 @@ footer .fa{
     .down-right{
         text-align: center;
         background-color: #fff;
-        height: 620px;
+        position: inherit;
+	    z-index: 3;
         width: 100%;
         margin-left: 25px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -380,7 +383,7 @@ footer .fa{
     }
     .section4{
         padding-top: 20px;
-        height: 1500px;
+        
         margin-top: 50px;
     }
     .middle{
@@ -388,8 +391,7 @@ footer .fa{
         /* padding: 50px 0 0 50px; */
         color: #fff;
         background-color: var(--rightcolor);
-        height: 1500px;
-        z-index: -1;
+       
     }
     .hobby-title{
         padding-top: 10px;
