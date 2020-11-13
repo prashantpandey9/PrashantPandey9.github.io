@@ -168,12 +168,18 @@
 .processcolorred{
     background-color: #3d5af1;
     font-weight: 500;
-    color: #f2f2f2;
+    color: #f3f3f3;
 }
 .processcoloryel{
     background-color: #22d1ee;
     font-weight: 500;
     color: #000;
+}
+.progressblue{
+    background-color: #751673;
+    font-weight: 500;
+    color: #fff;
+
 }
 
 .down-right {
