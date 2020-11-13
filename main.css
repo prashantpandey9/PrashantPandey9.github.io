@@ -12,6 +12,19 @@
     --bootstrap-lg: 992px;
     --bootstrap-xl: 1200px;
 } 
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000000;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+  }
+  
+  .skip-link:focus {
+    top: 0;
+  }
 *{
     margin: 0;
     padding: 0;
