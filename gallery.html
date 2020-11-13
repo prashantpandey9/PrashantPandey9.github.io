@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="theme-color" content="#00d679" />
     <link href="icon1.png" rel="shortcut icon">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://prashantpandey.ml/">
@@ -12,13 +13,16 @@
     <meta property="og:image:height" content="330">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://prashantpandey.ml/">
-    <meta property="twitter:title" content="Prashant Pandey">
+    <meta property="twitter:title" content="Prashant Pandey Portfolio">
     <meta name="twitter:site" value="@prashant8057152">
-    <meta property="twitter:description" content="A web-developer with so many dreams">
+    <meta property="twitter:description" content="A web-developer with so many dreams.">
     <meta property="twitter:image" content="icon1.png">
+    <link rel="apple-touch-icon" href="logo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-	
+
+    <link href="https://prashantpandey.ml/sitemap.xml" rel="alternate" type="application/rss+xml" title="Prashant Pandey" />
+  <link href="https://prashantpandey.ml/sitemap.xml" rel="feed" type="application/rss+xml" title="Prashant Pandey" />
+
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -62,5 +66,17 @@
     <script src="js/bootstrap.bundle.min.js"></script> 
     <script src="js/bootstrap.min.js"></script>
     <script src="main.js"></script>
+    <script>
+      var div = document.createElement('div');
+      for(let s=1; s<52; s++){
+          div.innerHTML += `
+              <div class="grid">
+                  <img src=${`gallery/${s}.webp`}>
+              </div>
+          `;
+      }
+
+      document.getElementById('Gallery').appendChild(div);
+    </script>
 </body>
 </html>

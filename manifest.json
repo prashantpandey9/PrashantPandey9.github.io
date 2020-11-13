@@ -1,0 +1,22 @@
+{
+    "name": "Prashant Pandey",
+    "short_name": "Prashant",
+    "description": "Believe in yourself!!",
+    "icons": [
+      {
+        "src": "icon1.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icon1.png",
+        "sizes": "330x330",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#ffffff",
+    "theme_color": "#00d679",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/"
+  }

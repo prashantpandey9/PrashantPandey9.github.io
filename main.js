@@ -13,17 +13,6 @@ menuBtn.addEventListener('click',() => {
 });
 
 
-var div = document.createElement('div');
-for(let s=1; s<52; s++){
-    div.innerHTML += `
-        <div class="grid">
-            <img src=${`gallery/${s}.webp`}>
-        </div>
-    `;
-}
-
-document.getElementById('Gallery').appendChild(div);
-
 // `
 // <div class="grid__body">
 //     <div class="relative">
