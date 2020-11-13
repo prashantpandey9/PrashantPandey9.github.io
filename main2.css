@@ -113,8 +113,11 @@ img:hover{
     transition: transform .9s;
     transform: scale(1.2);
     position: relative;
-    z-index: 100;
-    border: 4px solid#5c8c9f;
+    z-index: 1031;
+
+}
+.section1{
+  height: 0px;
 }
 .section2{
     padding-top: 10px;

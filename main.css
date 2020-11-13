@@ -16,7 +16,7 @@
     margin: 0;
     padding: 0;
     font-family: var(--font-stack);
-    /* width: 100%; */
+    width: 100%;
     scroll-behavior: smooth;
 }
 .section1{
