@@ -17,7 +17,7 @@ var div = document.createElement('div');
 for(let s=1; s<52; s++){
     div.innerHTML += `
         <div class="grid">
-            <img src=${`gallery/${s}.jpg`}>
+            <img src=${`gallery/${s}.webp`}>
         </div>
     `;
 }
