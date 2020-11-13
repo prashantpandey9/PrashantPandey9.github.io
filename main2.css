@@ -138,7 +138,7 @@ img:hover{
         /* margin-left: 20px; */
         font-weight: 900;
         font-family: 'Roboto';
-        font-size: 40px;
+        font-size: 19px;
     }
     button{
         width: auto;
@@ -149,6 +149,8 @@ img:hover{
     img:hover{
         transition: transform .9s;
         /* transform: scale(1.1); */
+        position: relative;
+        z-index: 100;
     }
     
 }
@@ -169,7 +171,9 @@ img:hover{
     }
     img:hover{
       transition: transform .9s;
-      transform: scale(1.1);
+      transform: scale(1);
+      position: relative;
+      z-index: 100;
     }
   }
   @media (max-width: 768px) {
