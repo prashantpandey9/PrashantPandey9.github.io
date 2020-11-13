@@ -14,10 +14,10 @@ menuBtn.addEventListener('click',() => {
 
 
 var div = document.createElement('div');
-
-div.innerHTML = `
+for(let s=1; s<53; s++){
+    div.innerHTML += `
         <div class="grid">
-            <img src=${"./gallery/img1.jpg"}>
+            <img src=${`gallery/${s}.jpg`}>
             <div class="grid__body">
             <div class="relative">
                 <a class="grid__link" target="_blank" href="/" ></a>
@@ -29,5 +29,7 @@ div.innerHTML = `
             </div>
             </div>
         </div>
-`;
+    `;
+}
+
 document.getElementById('Gallery').appendChild(div);
