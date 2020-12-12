@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#00d679" />
+    <link href="icon1.png" rel="shortcut icon">
+    <meta name="description" content="I love to work in Web Designing & Problem Solving. Because I love to solve the design problem and find easy and better
+    solutions to solve it. I always try my best to make good user interface with the best user experience.
+    ">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://prashantpandey.ml/">
+    <meta property="og:title" content="Prashant Pandey">
+    <meta property="og:description" content="A web-developer with so many dreams">
+    <meta property="og:image" content="icon1.png">
+    <meta property="og:image:width" content="330">
+    <meta property="og:image:height" content="330">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://prashantpandey.ml/">
+    <meta property="twitter:title" content="Prashant Pandey Portfolio">
+    <meta name="twitter:site" value="@prashant8057152">
+    <meta property="twitter:description" content="A web-developer with so many dreams.">
+    <meta property="twitter:image" content="icon1.png">
+    <link rel="apple-touch-icon" href="logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://prashantpandey.ml/sitemap.xml" rel="alternate" type="application/rss+xml" title="Prashant Pandey" />
+    <link href="https://prashantpandey.ml/sitemap.xml" rel="feed" type="application/rss+xml" title="Prashant Pandey" />
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main2.css">
+    <title>Prashant</title>
+</head>
+<body style='background-color: #1f262d'>
+    <a class="skip-link" href="#maincontent">Skip to main</a>
+    <div class="container-fluid section1" id="maincontent">
+        <nav class="navbar navbar-expand-lg navbg fixed-top">
+            <a class="navbar-brand" href="/">Prashant's Photography</a>
+            <button class="navbar-toggler custom-tog" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon menu-btn_burger"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto mr-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="https://prashantpandey.ml/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://blog.prashantpandey.ml/blog/">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://covidindiaa.pythonanywhere.com/">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </nav>     
+    </div>
+    <div class="masonry container-fluid mt-5 pt-5" id='Gallery'>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+      var div = document.createElement('div');
+      for(let s=1; s<52; s++){
+          div.innerHTML += `
+              <div class="grid">
+                  <img src=${`gallery/${s}.webp`} alt='Photos by Prashant Pandey'> 
+              </div>
+          `;
+      }
+
+      document.getElementById('Gallery').appendChild(div);
+    </script>
+</body>
+</html>
