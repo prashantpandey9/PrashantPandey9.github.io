@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@600&display=swap');
 .dark-mode{
-  --rich-black-fogra-29: #020c1bff;
-  --oxford-blue: #0a192fff;
-  --azure: #4882d9ff;
-  --rich-black-fogra-29-2: #010a17ff;
-  --dark-cornflower-blue: #1f4580ff;
+  --background: #030D1C;
+  --extra: #0a192fff;
+  --font-color: #8CAFE3;
+
+  --lightest-slate: #ccd6f6;
+  --highlight-color: #d1c532;
 }
 :root{
-  --main-font: 'Fira Code', monospace;
-  --nav-font: 'Inter', sans-serif;
-  
+  --nav-font: 'Fira Code', monospace;
+  --main-font: 'Inter', sans-serif;
+
   --fz-xxs: 12px;
   --fz-xs: 13px;
   --fz-sm: 14px;
@@ -29,8 +30,45 @@
 }
 
 body {
+  color: var(--font-color)!important;
   margin: 0;
-  font-family: var(--main-font);
+  background-color: var(--background)!important;
+  font-family: var(--main-font)!important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.highlight{
+  color: var(--highlight-color);
+}
+
+.font-code{
+  font-family: var(--nav-font)!important;
+}
+
+.f-md{
+  font-size: var(--fz-md);
+}
+.f-lg{
+  font-size: var(--fz-lg);
+}
+.f-xs{
+  font-size: var(--fz-xs);
+}
+
+@media screen and (max-width: 767px){ 
+  .f-sm{
+    font-size: var(--fz-sm);
+  }
+  
+}
+
+@media screen and (max-width: 426px){ 
+  .f-xxs{
+    font-size: var(--fz-xxs);
+  }
+  .f-xs{
+    font-size: var(--fz-xs);
+  }
+  
 }

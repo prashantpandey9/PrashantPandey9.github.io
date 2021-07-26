@@ -1,0 +1,17 @@
+.font-code span a{
+    text-decoration: none;
+    color: inherit;
+}
+.font-code span a:hover{
+    text-decoration: underline;
+    color: inherit;
+}
+
+
+@supports (backdrop-filter: none) {
+	.bg-blur{
+        /* filter: blur(4px); */
+        backdrop-filter: blur(4px);
+    }
+}
+
