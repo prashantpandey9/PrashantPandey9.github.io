@@ -12,12 +12,15 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
+        maxWidth: 900,
+        display: `flex`,
         padding: `1.45rem 1.0875rem`,
-        display: `flex`
       }}
     >
-      <h2 style={{ margin: 0 }}>
+      <h2 
+        style={{ 
+          margin: 0,
+          maxWidth: `100%`, }}>
         <Link
           to="/"
           style={{
@@ -28,6 +31,36 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h2>
+      
+      <ul 
+        style={{
+          float: `right`,
+          display: `flex`,
+          listStyle: `none`
+          }}>
+        <li>
+          <Link
+            to="/"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+            }}
+          >
+            <span>About Us</span>
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/blog"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+            }}
+          >
+            <span>Blog</span>
+          </Link>
+        </li>
+      </ul>
       
 
     </div>

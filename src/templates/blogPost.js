@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { graphql, Link } from 'gatsby';
-
+import Layout from '../components/layout';
 const Template = ({ data, pageContext }) => {
     // console.log(data)
 	const title = data.markdownRemark.frontmatter.title;
@@ -10,7 +10,9 @@ const Template = ({ data, pageContext }) => {
     const prev = pageContext.previous;
 	const next = pageContext.next 
 	return (
-		<div>
+		
+		<Layout>
+			<div>
 			<h1>{title}</h1>
 			<div>
 				<em>{date}</em>
@@ -40,6 +42,7 @@ const Template = ({ data, pageContext }) => {
 				)}
 			</p>
 		</div>
+		</Layout>
 	);
 };
 
