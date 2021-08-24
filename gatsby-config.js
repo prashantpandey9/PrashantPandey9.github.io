@@ -30,7 +30,22 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
-    'gatsby-transformer-remark',
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              withWebp: true,
+              quality: 50,
+            },
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
