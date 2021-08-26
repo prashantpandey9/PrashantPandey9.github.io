@@ -1,14 +1,13 @@
-
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 const Template = ({ data, pageContext }) => {
-    // console.log(data)
+    
 	const title = data.markdownRemark.frontmatter.title;
 	const date = data.markdownRemark.frontmatter.date;
 	const html = data.markdownRemark.html;
     const prev = pageContext.previous;
-	const next = pageContext.next 
+	const next = pageContext.next
 	return (
 		
 		<Layout>
@@ -49,7 +48,7 @@ const Template = ({ data, pageContext }) => {
 export const postQuery = graphql`
 	query($pathSlug: String) {
 		markdownRemark(frontmatter: { path: { eq: $pathSlug } }) {
-			html
+			html	
 			frontmatter {
 				title
 				date(formatString: "MMMM, DD, YYYY")

@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
     <Footer>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="">Gatsby</a>
+          <a href="/">Gatsby</a>
         </Footer>
     </>
   )

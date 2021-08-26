@@ -68,18 +68,14 @@ background: rgb(45, 45, 49);
 padding: 1rem 1.25rem;
 font-size: 1.2rem;
 margin-inline: 8px;
+cursor: pointer;
+color: hsla(0,0%,100%,.8);
+font-family: 'DM Mono', monospace;
+letter-spacing: -.05rem;
 
-a{
-  color: hsla(0,0%,100%,.8);
-  text-decoration: none;
-  font-family: 'DM Mono', monospace;
-  letter-spacing: -.05rem;
-}
-a:hover{
-  color: #1b1d25!important;
-}
 &:hover{
   background: #fdba3a!important;
+  color: #1b1d25!important;
 }
 
 @media only screen and (min-width: 100px) {
@@ -117,19 +113,18 @@ const Header = ({ siteTitle }) => (
       </H2>
       
       <Ul>
-        <Li>
-          <Link
+        <Link
             to="/">
-            <span>About Us</span>
-          </Link>
-          
-        </Li>
-        <Li>
-          <Link
+          <Li>
+              About Us
+          </Li>
+        </Link>
+        <Link
             to="/blog">
-            <span>Blog</span>
-          </Link>
-        </Li>
+          <Li>
+              Blog
+          </Li>
+        </Link>
       </Ul>
       
 
