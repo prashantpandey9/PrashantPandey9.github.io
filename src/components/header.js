@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const Headerstyle = styled.header`
   background: #1b1d25;
-  margin-bottom: 1.45rem;
+  // margin-bottom: 1.45rem;
 `
 const Wrapper = styled.div`
   margin: 0 auto;
@@ -62,7 +62,7 @@ const Ul = styled.ul`
   }
 `
 
-const Li = styled.li`
+const Li = styled.button`
 margin: auto 0;
 background: rgb(45, 45, 49);
 padding: 1rem 1.25rem;
@@ -83,7 +83,7 @@ a:hover{
 }
 
 @media only screen and (min-width: 100px) {
-  margin: 4px;
+  margin-inline: 4px;
   padding: 10px;
   font-size: 20px;
   
@@ -94,6 +94,8 @@ a:hover{
 @media only screen and (min-width: 768px) {
   font-size: 22px;
   padding: 1rem 1.25rem;  
+  margin-inline: 8px;
+
 }
 
 `
