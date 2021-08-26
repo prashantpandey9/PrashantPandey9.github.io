@@ -10,7 +10,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <div className="container">
       <div className="intro">
-        <h1>Hi, I'm Prashant Pandey</h1>
+        <h1>About me.</h1>
         <p>A software engineer, writer, and open-sourcerer..</p>
         <p>Now go build something great.</p>
       </div>

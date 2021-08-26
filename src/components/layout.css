@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&display=swap');
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -6,11 +7,12 @@ html {
   overflow-y: scroll;
 }
 body {
+  font-family: 'DM Sans', sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  color: #000!important;
+  /* font-family: georgia, serif; */
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
