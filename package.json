@@ -1,0 +1,57 @@
+{
+  "name": "prashantpandey9",
+  "private": true,
+  "description": "Full Stack Developer (Django, React). I'm a software engineer building things on the web with HTML, CSS, JavaScript, React, and Django.",
+  "version": "0.1.0",
+  "author": "Prashant Pandey <prashantpandey94551@gmail.com>",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "gatsby": "^3.11.1",
+    "gatsby-plugin-fontawesome-css": "^1.1.0",
+    "gatsby-plugin-gatsby-cloud": "^2.11.0",
+    "gatsby-plugin-image": "^1.11.0",
+    "gatsby-plugin-manifest": "^3.11.0",
+    "gatsby-plugin-offline": "^4.11.0",
+    "gatsby-plugin-react-helmet": "^4.11.0",
+    "gatsby-plugin-sharp": "^3.12.0",
+    "gatsby-remark-images": "^5.9.0",
+    "gatsby-remark-relative-images": "^1.1.1",
+    "gatsby-source-filesystem": "^3.12.0",
+    "gatsby-transformer-remark": "^4.9.0",
+    "gatsby-transformer-sharp": "^3.11.0",
+    "gh-pages": "^3.2.3",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prashantpandey9/PrashantPandey9.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/prashantpandey9/PrashantPandey9.github.io/issues"
+  }
+}
