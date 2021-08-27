@@ -3,9 +3,9 @@ import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 const Template = ({ data, pageContext }) => {
     
-	const title = data.markdownRemark.frontmatter.title;
-	const date = data.markdownRemark.frontmatter.date;
-	const html = data.markdownRemark.html;
+	const title = pageContext.post.node.frontmatter.title;
+	const date = pageContext.post.node.frontmatter.date;
+	const html = pageContext.post.node.html;
     const prev = pageContext.previous;
 	const next = pageContext.next
 	return (

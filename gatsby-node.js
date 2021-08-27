@@ -33,13 +33,15 @@ exports.createPages = ({ graphql, actions }) => {
     posts.forEach((post, index) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
       const next = index === 0 ? null : posts[index - 1].node
-      const postpath = post.node.frontmatter.path
+      // const postpath = 
+      console.log(post.node.frontmatter.path)
       createPage({
-        path: postpath,
+        path: post.node.frontmatter.path,
         component: blogPost,
         context: {
           previous,
           next,
+          post
           
         },
       })
