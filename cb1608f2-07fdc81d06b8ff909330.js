@@ -1,0 +1,3 @@
+/*! For license information please see cb1608f2-07fdc81d06b8ff909330.js.LICENSE.txt */
+"use strict";(self.webpackChunkprashantpandey9=self.webpackChunkprashantpandey9||[]).push([[523],{8014:function(n,a,e){e.d(a,{m6i:function(){return c}});var c={prefix:"fas",iconName:"heart",icon:[512,512,[],"f004","M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"]}}}]);
+//# sourceMappingURL=cb1608f2-07fdc81d06b8ff909330.js.map
