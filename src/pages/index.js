@@ -54,7 +54,7 @@ const IndexPage = () => (
           This is my corner of the web where I share things I learn. As a developer I write code in Django and React.
         </Paragraph>
         <Paragraph>
-          When I'm not coding, you'll find me playing mobile games and watching some web series.
+          When I'm not coding, you'll find me playing mobile games or watching some web series.
         </Paragraph>
         <Paragraph>
           You can read my <Link to='/blog'>blog</Link>.

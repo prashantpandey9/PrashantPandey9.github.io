@@ -6,6 +6,11 @@ import Header from "./header"
 import "./layout.css"
 import styled from 'styled-components'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
+library.add(fab);
 const Wrapper = styled.div`
   background: #f1f4f8;
 `
@@ -18,8 +23,16 @@ const Container = styled.div`
 `
 
 const Footer = styled.footer`
-  margin-top: 2rem;
+  padding: 2rem 0rem 2rem 0rem;
+  padding-inline: 12px;
   text-align: center;
+  background: #1b1d25;
+  color: hsla(0,0%,100%,.8);
+  a{
+    color: hsla(0,0%,100%,.8);
+    text-decoration: none;
+    padding: 10px;
+  }
 `
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -41,10 +54,43 @@ const Layout = ({ children }) => {
       </Container>
     </Wrapper>
     <Footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="/">Gatsby</a>
-        </Footer>
+
+      <a 
+        href="https://github.com/prashantpandey9" 
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FontAwesomeIcon icon={['fab', 'github']} size="1x"/>       
+      </a>
+
+      <a 
+        href="https://twitter.com/Prashant8057152" 
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FontAwesomeIcon icon={['fab', 'twitter']} size="1x"/>
+      </a>
+      
+      <a 
+        href="https://www.linkedin.com/in/prashantpandey9" 
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FontAwesomeIcon icon={['fab', 'linkedin']} size="1x"/>
+      </a>
+      
+      <a 
+        href="https://dev.to/prashantpandey9" 
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FontAwesomeIcon icon={['fab', 'dev']} size="1x"/>
+      </a>
+      <br />
+      <br />
+      © {new Date().getFullYear()}, Built with <FontAwesomeIcon icon={faHeart} size="1x"/> by Prashant Pandey
+      {` `}
+    </Footer>
     </>
   )
 }

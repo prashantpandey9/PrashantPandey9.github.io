@@ -1,6 +1,33 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
+import styled from 'styled-components'
+import Seo from '../components/seo'
+const Wrapper = styled.div`
+	display: flex;
+	@media only screen and (min-width: 100px) {
+		flex-direction: column;
+	}
+	@media only screen and (min-width: 420px) {
+		flex-direction: row;
+	}
+`
+const Button = styled.button`
+	width: 50%;
+	margin-inline: 10px;
+	margin-bottom: 10px;
+	a{
+		text-decoration: none;
+		color: #343a40;
+		width: 100%
+	}
+	@media only screen and (min-width: 100px) {
+		width: 100%;
+	  }
+	  @media only screen and (min-width: 420px) {
+		width: 50%;
+	  }
+`
 const Template = ({ data, pageContext }) => {
     
 	const title = pageContext.post.node.frontmatter.title;
@@ -11,6 +38,7 @@ const Template = ({ data, pageContext }) => {
 	return (
 		
 		<Layout>
+			<Seo title={title}/>
 			<div>
 			<h1>{title}</h1>
 			<div>
@@ -18,28 +46,35 @@ const Template = ({ data, pageContext }) => {
 			</div>
 			<br />
 			<div className="blogpost" dangerouslySetInnerHTML={{ __html: html }} />
-			<p>
+			<Wrapper>
 				{prev && (
-					<Link to={prev.frontmatter.path}>
-						{prev.frontmatter.title}{' '}
-						<span role="img" aria-label="point-left">
-							👈{' '}
-						</span>
-						Previous
-					</Link>
+					<Button>
+						<Link to={prev.frontmatter.path}>
+							{prev.frontmatter.title}{' '}
+							<br/>
+							<span role="img" aria-label="point-left">
+							←
+							</span>
+							Previous
+						</Link>
+					</Button>
 				)}
-			</p>
-			<p>
+				
+				
 				{next && (
-					<Link to={next.frontmatter.path}>
-						Next{' '}
-						<span role="img" aria-label="point-right">
-							👉
-						</span>
-						{next.frontmatter.title}
-					</Link>
+					<Button>
+						<Link to={next.frontmatter.path}>
+							Next{' '}
+							<span role="img" aria-label="point-right">
+							→
+							</span>
+							<br/>
+							{next.frontmatter.title}
+						</Link>
+					</Button>
 				)}
-			</p>
+				
+			</Wrapper>
 		</div>
 		</Layout>
 	);

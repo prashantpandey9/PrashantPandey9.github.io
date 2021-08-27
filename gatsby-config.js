@@ -1,11 +1,13 @@
+
 module.exports = {
   siteMetadata: {
     title: `Prashant Pandey`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    description: `Full Stack Developer (Django, React). I'm a software engineer building things on the web with HTML, CSS, JavaScript, React, and Django.`,
+    author: `@prashantpandey9`,
+    siteUrl: `https://prashantpandey9.in/`,
   },
   plugins: [
+    `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -39,8 +41,10 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
+              linkImagesToOriginal: false,
               withWebp: true,
               quality: 50,
+              loading:	'lazy'
             },
           },
         ],
