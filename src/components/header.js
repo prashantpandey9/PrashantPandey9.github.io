@@ -116,7 +116,7 @@ const Header = ({ siteTitle }) => (
         <Link
             to="/">
           <Li>
-              About Us
+              About
           </Li>
         </Link>
         <Link
