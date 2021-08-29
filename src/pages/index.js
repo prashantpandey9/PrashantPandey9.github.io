@@ -48,23 +48,19 @@ const IndexPage = () => (
       <Intro>
         <Heading1>Hi, I'm Prashant! I'm a student.</Heading1>
         <Paragraph>
-          A Software Engineer. I write code and blog posts.
+        I love working with Python and JavaScript. I enjoy building web apps and learning the ecosystem around them. I've been developing websites for several years now and learning new skills along the way which help me become a better developer.
         </Paragraph>
         <Paragraph>
-          This is my corner of the web where I share things I learn. As a developer I write code in Django and React.
+          This is my corner of the web where I share things I learn.
         </Paragraph>
         <Paragraph>
-          When I'm not coding, you'll find me playing mobile games or watching some web series.
-        </Paragraph>
-        <Paragraph>
-          You can read my <Link to='/blog'>blog</Link>.
+          Read my <Link to='/blog'>blog</Link> here.
         </Paragraph>
       </Intro>
       <StaticImage
         src="../images/prashantpandey9.webp"
         alt="Photo of Prashant Pandey"
         className=""
-        // width={250}
         style={{ 
           marginBottom: `1.45rem`, 
           borderRadius: `12px`, 
