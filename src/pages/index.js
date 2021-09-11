@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import styled from 'styled-components'
+import me from '../images/prashantpandey9.webp'
 
 const Wrapper = styled.div`
   display: flex;
@@ -57,8 +58,8 @@ const IndexPage = () => (
           Read my <Link to='/blog'>blog</Link> here.
         </Paragraph>
       </Intro>
-      <StaticImage
-        src="../images/prashantpandey9.webp"
+      <img
+        src={me}
         alt="Photo of Prashant Pandey"
         className=""
         style={{ 
