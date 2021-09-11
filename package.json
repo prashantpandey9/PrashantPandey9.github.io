@@ -13,6 +13,7 @@
     "gatsby": "^3.11.1",
     "gatsby-plugin-fontawesome-css": "^1.1.0",
     "gatsby-plugin-gatsby-cloud": "^2.11.0",
+    "gatsby-plugin-gtag": "^1.0.13",
     "gatsby-plugin-image": "^1.11.0",
     "gatsby-plugin-manifest": "^3.11.0",
     "gatsby-plugin-offline": "^4.11.0",
