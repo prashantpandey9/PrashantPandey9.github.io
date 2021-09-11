@@ -66,7 +66,7 @@ const IndexPage = () => (
           marginBottom: `1.45rem`, 
           borderRadius: `12px`, 
           height: 'auto',
-          width: '500px!important', }}
+        }}
       />
     </Wrapper>
   </Layout>
