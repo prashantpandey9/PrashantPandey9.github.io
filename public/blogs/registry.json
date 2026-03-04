@@ -1,0 +1,92 @@
+[
+  {
+    "id": "0",
+    "slug": "redux-concept",
+    "title": "Redux-Concept",
+    "excerpt": "Redux is a predictable state container for JavaScript applications. Understanding the core concepts of Redux.",
+    "date": "2020-12-28",
+    "category": "Engineering",
+    "image": "https://picsum.photos/seed/redux/800/600",
+    "tags": ["redux", "react", "javascript"]
+  },
+  {
+    "id": "1",
+    "slug": "aws-ses-production",
+    "title": "How to get production access to AWS Simple E-mail Service",
+    "excerpt": "A guide on how to request and get production access for AWS SES for your website.",
+    "date": "2020-10-08",
+    "category": "Cloud",
+    "image": "https://picsum.photos/seed/aws/800/600",
+    "tags": ["aws", "ses", "email"]
+  },
+  {
+    "id": "2",
+    "slug": "linux-story-1",
+    "title": "Linux Story I",
+    "excerpt": "My first experience shifting from Windows to Ubuntu and the challenges I faced during installation.",
+    "date": "2019-09-04",
+    "category": "Linux",
+    "image": "https://picsum.photos/seed/linux1/800/600",
+    "tags": ["linux", "ubuntu", "os", "lifestyle"]
+  },
+  {
+    "id": "3",
+    "slug": "linux-story-2",
+    "title": "Linux Story II",
+    "excerpt": "Dealing with NTFS locks and read/write permissions after moving to Ubuntu.",
+    "date": "2019-09-15",
+    "category": "Linux",
+    "image": "https://picsum.photos/seed/linux2/800/600",
+    "tags": ["linux", "ubuntu", "ntfs"]
+  },
+  {
+    "id": "4",
+    "slug": "linux-story-3",
+    "title": "Linux Story III",
+    "excerpt": "Solving dual boot issues where the grub loader doesn't show up.",
+    "date": "2020-09-21",
+    "category": "Linux",
+    "image": "https://picsum.photos/seed/linux3/800/600",
+    "tags": ["linux", "grub", "dualboot"]
+  },
+  {
+    "id": "5",
+    "slug": "trying-react",
+    "title": "Trying some hands on React.",
+    "excerpt": "My initial impressions and learning journey with React.js.",
+    "date": "2020-09-18",
+    "category": "Engineering",
+    "image": "https://picsum.photos/seed/react/800/600",
+    "tags": ["react", "javascript", "frontend"]
+  },
+  {
+    "id": "6",
+    "slug": "django-learning-1",
+    "title": "Django Learning I",
+    "excerpt": "Starting my journey with the Django framework after trying Laravel.",
+    "date": "2019-11-04",
+    "category": "Engineering",
+    "image": "https://picsum.photos/seed/django1/800/600",
+    "tags": ["django", "python", "backend"]
+  },
+  {
+    "id": "7",
+    "slug": "django-learning-2",
+    "title": "Django Learning II",
+    "excerpt": "The struggles of building a Todo app and dealing with migrations.",
+    "date": "2019-11-25",
+    "category": "Engineering",
+    "image": "https://picsum.photos/seed/django2/800/600",
+    "tags": ["django", "python", "errors"]
+  },
+  {
+    "id": "8",
+    "slug": "django-learning-3",
+    "title": "Django Learning III",
+    "excerpt": "Understanding the core structure of a Django project: models, urls, views, and templates.",
+    "date": "2019-12-03",
+    "category": "Engineering",
+    "image": "https://picsum.photos/seed/django3/800/600",
+    "tags": ["django", "python", "architecture"]
+  }
+]
