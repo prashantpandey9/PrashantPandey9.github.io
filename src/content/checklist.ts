@@ -1,0 +1,17 @@
+export const CHECKLIST_ITEMS = [
+  { id: "1", title: "Visit the Taj Mahal", completed: true },
+  { id: "2", title: "Contribute to a major OS project", completed: true },
+  { id: "3", title: "Speak at a tech conference", completed: false },
+  { id: "4", title: "Write a technical book", completed: false },
+  { id: "5", title: "Run a marathon", completed: false },
+  { id: "6", title: "Travel to 10 countries", completed: true },
+  { id: "7", title: "Learn to play an instrument", completed: false },
+  { id: "8", title: "Build a product used by 1M+ people", completed: true },
+  { id: "9", title: "Mentor 10+ junior developers", completed: true },
+  { id: "10", title: "Go on a solo trip", completed: true },
+  { id: "11", title: "Learn a new language", completed: false },
+  { id: "12", title: "Start a successful side business", completed: false },
+  { id: "13", title: "Give back to the community", completed: true },
+  { id: "14", title: "Achieve financial independence", completed: false },
+  { id: "15", title: "Live in a different country", completed: false },
+];
